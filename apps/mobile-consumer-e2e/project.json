@@ -1,0 +1,10 @@
+{
+  "name": "mobile-consumer-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/mobile-consumer-e2e/src",
+  "projectType": "application",
+  "tags": [],
+  "implicitDependencies": ["mobile-consumer"],
+  "// targets": "to see all targets run: nx show project mobile-consumer-e2e --web",
+  "targets": {}
+}
