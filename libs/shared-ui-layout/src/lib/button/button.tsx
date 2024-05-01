@@ -1,4 +1,4 @@
-import { View, Text, TouchableOpacity } from 'react-native';
+import { View, Text, Pressable } from 'react-native';
 
 export interface ButtonProps {
   onPress: () => void;
@@ -8,9 +8,9 @@ export interface ButtonProps {
 export function Button({ text, onPress }) {
   return (
     <View>
-      <TouchableOpacity onPress={onPress}>
+      <Pressable onPress={onPress}>
         <Text>{text}</Text>
-      </TouchableOpacity>
+      </Pressable>
     </View>
   );
 }
